@@ -21,14 +21,14 @@ export default function Home() {
   return (
     <div>
       <div className="flex place-content-center">
-        <button onClick={change} name="1" value="1" className="mt-3 mr-20 bg-inherit hover:bg-gray-700 hover:text-white text-black text-xl font-bold py-2 px-5 rounded" type="button">
+        <button onClick={change} name="todo" value="1" className="mt-3 mr-20 bg-inherit hover:bg-gray-700 hover:text-white text-black text-xl font-bold py-2 px-5 rounded" type="button">
           Todo
         </button>
-        <button onClick={change} name="2" value="2" className="mt-3 bg-inherit hover:bg-gray-700 hover:text-white text-black text-xl font-bold py-2 px-4 rounded" type="button">
+        <button onClick={change} name="done" value="2" className="mt-3 bg-inherit hover:bg-gray-700 hover:text-white text-black text-xl font-bold py-2 px-4 rounded" type="button">
           Done
         </button>
       </div>
-      <div className="pb-6">
+      <div className="pb-5">
         {getNav()}
       </div>
 
